@@ -1,0 +1,80 @@
+{
+  "source": {
+    "include": ["src", "README.md", "LIBRARY_GUIDE.md"],
+    "exclude": ["node_modules", "docs"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "destination": "./docs/",
+    "recurse": true,
+    "readme": "README.md",
+    "template": "node_modules/docdash",
+    "tutorials": "./examples"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true,
+      "includeDate": true,
+      "useLongnameInNav": false
+    },
+    "docdash": {
+      "static": true,
+      "sort": true,
+      "sectionOrder": [
+        "Classes",
+        "Modules",
+        "Externals",
+        "Events",
+        "Namespaces",
+        "Mixins",
+        "Tutorials",
+        "Interfaces"
+      ],
+      "meta": {
+        "title": "GhostSelfBot API Documentation",
+        "description": "API documentation for GhostSelfBot library",
+        "keyword": "discord, selfbot, api, ghostselfbot"
+      },
+      "search": true,
+      "collapse": true,
+      "wrap": true,
+      "typedefs": true,
+      "navLevel": 3,
+      "private": false,
+      "menu": {
+        "GitHub Repository": {
+          "href": "https://github.com/ghostnetteam/ghostselfbot",
+          "target": "_blank"
+        },
+        "npm Package": {
+          "href": "https://www.npmjs.com/package/ghostselfbot",
+          "target": "_blank"
+        },
+        "Discord Support": {
+          "href": "https://discord.gg/ghostselfbot",
+          "target": "_blank"
+        }
+      }
+    }
+  },
+  "docdash": {
+    "menu": {
+      "GitHub": {
+        "href": "https://github.com/ghostnetteam/ghostselfbot",
+        "target": "_blank"
+      }
+    },
+    "footer": "GhostNet Team © 2025-2026"
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": false,
+    "idInHeadings": true
+  }
+} 

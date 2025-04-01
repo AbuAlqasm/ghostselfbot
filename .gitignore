@@ -1,0 +1,79 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build and distribution
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tokens and credentials
+tokens.json
+config.json
+credentials.json
+auth.json
+
+# Cache and temporary files
+.cache/
+.temp/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+._*
+
+# Generated documentation
+docs/
+jsdoc/
+
+# Test directories
+__tests__/
+__snapshots__/
+test-results/
+
+# Specific files to ignore
+token.js
+credentials.js
+secrets.js
+
+# NPM/Yarn
+.npm
+.yarn-integrity
+yarn.lock
+package-lock.json 
