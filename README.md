@@ -1,4 +1,4 @@
-# 🎭 GhostSelfBot X - Your Ultimate Discord Companion
+# 🎭 GhostSelfBot X - Your Ultimate Discord Companion | This library is under development. | This is a trial version.
 
 <div align="center">
 
